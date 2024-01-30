@@ -40,7 +40,7 @@ char binaryToASCII(char *binary) {
 }
 // Créer le fichier logs puis imprime le contenu de message à l'intèrieur
 void saveMessage(const char *message) {
-    FILE *file = fopen("LogsServer.txt", "a");
+    FILE *file = fopen("LogServer.txt", "a");
     if (file != NULL) {
         fprintf(file, "%s\n", message);
         fclose(file);
