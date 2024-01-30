@@ -10,3 +10,6 @@
 ### Utilisation : 
 - server : ./server 
 - client : ./client <PID cible> <Message moins de 1024 charactères> 
+
+### Logs : 
+- Logsserver.txt : Une fois que le server à reçu un message il écrit un log du message reçu dans un fichier logsserver.txt.  
