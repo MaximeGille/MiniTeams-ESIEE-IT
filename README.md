@@ -3,7 +3,7 @@
 ### Fichier : 
 - client.c : Script du client qui envoie les messages
 - server.c : Script du server qui reçoit et affiches les messages
-- Makefile : Makefile du projet `make` `fclean` `re` `.PHONY`
+- Makefile : Makefile du projet `clean` `fclean` `re` `.PHONY`
 - Make_run.sh : ouvre un terminal est éxécute la commande make qui compile les fichiers client & server
 - run.sh : Ouvre 2 terminaux puis éxécute server et client 
 
